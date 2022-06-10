@@ -1,0 +1,81 @@
+.newpet {
+    text-align: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+  }
+  .newpet h1{
+   
+    font-size: 40px;
+    height: 40px;
+    font-weight: 50;
+    color: #605a47;
+  }
+  .newpet input{
+    display: block;
+    width: 300px;
+    height: 60px;
+    margin: 10px;
+    font-size: 25px;
+    text-decoration:grey;
+  
+  }
+  
+  .newpet .dropdown .select {
+  
+    width: 300px;
+    height: 60px;
+    margin: 10px;
+    padding: 12px 16px;
+    text-decoration: none;
+    z-index: inherit;
+   
+  }
+  
+  .newpet .gender{
+    border: "10px solid #90DDD0";
+  }
+  
+  .newpet label{
+    font-size: 20px;
+    height: 20px;
+    font-weight: 50;
+    color: #605a47;
+  }
+  .newpet button {
+    background-color: #04AA6D;
+    color: white;
+    padding: 14px 20px;
+    margin: 20px;
+    border: none;
+  
+  }
+  .profilepet button2 {
+    background-color: #820808;
+color: white;
+padding: 14px 20px;
+margin: 20px;
+border: none;
+width: 30%;
+
+  }
+  .profilepet  .card{
+    width: 500px;
+    height: 300px;
+    border: 2px solid black;
+    border-radius: 15px;
+    margin: 10px;
+    font-size: 20px;
+  }
+  
+  
+    
+  @media only screen and (max-width: 650px) {
+    .newpet {
+      justify-content: center;
+      align-items: center;
+      align-content: center;
+    }
+}

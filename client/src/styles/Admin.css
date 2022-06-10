@@ -1,0 +1,45 @@
+.admin {
+    width: 100vw;
+    height:100vh;
+    background-color: rgb(255, 255, 255);
+     
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.Sidebar  {
+    
+    height: 20%;
+    width: 100%;
+    background-color: #bdb6a1;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    padding-left: 20px;
+    flex: 80%;
+    font-size: 35px;
+    
+  }
+  
+  .Sidebar a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    margin: 30px;
+
+  }
+       
+  @media only screen and (max-width: 650px) {
+    .admin {
+      justify-content: center;
+      align-items: center;
+      align-content: center;
+    }
+}
+ 

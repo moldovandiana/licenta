@@ -1,0 +1,71 @@
+.service {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .service .serviceTitle {
+    font-family: cursive;
+    font-size: 20px;
+  }
+  
+  .ServiceList {
+    width: 70vw;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    place-items: center;
+  }
+  
+  /* Service ITEM STYLING */
+  
+  .serviceItem {
+    border-radius: 15px;
+    width: 300px;
+    height: 350px;
+    margin: 10px;
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+  }
+  .serviceItem:hover {
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.5);
+    transition: 0.3s ease-in;
+    cursor: pointer;
+  }
+  
+  .serviceItem div {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    width: 100%;
+    height: 150px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .serviceItem h1,
+  .serviceItem p {
+    font-size: 15px;
+    margin-left: 10px;
+  }
+  
+  @media only screen and (max-width: 1300px) {
+    .serviceList {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+  
+  @media only screen and (max-width: 800px) {
+    .serviceList {
+      grid-template-columns: 1fr;
+    }
+  }
+     
+  @media only screen and (max-width: 650px) {
+    .serviceList {
+      justify-content: center;
+      align-items: center;
+      align-content: center;
+    }
+}

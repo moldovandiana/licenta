@@ -1,0 +1,71 @@
+.logare{
+  text-align: center;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  justify-content: center;
+}
+
+
+  .logare input[type=text], input[type=password] {
+    width: 30%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: flex;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    margin:20px;
+   
+    
+  }
+  .logare h5{
+    height: 40px;
+    font-weight: 50;
+    font-size: 40px;
+    color: #605a47;
+  }
+  
+  .logare button {
+    background-color: #04AA6D;
+    color: white;
+    padding: 14px 20px;
+    margin: 20px;
+    border: none;
+
+    width: 30%;
+    
+  }
+  
+  
+ .logare button:hover {
+    opacity: 0.8;
+  }
+  
+ .Links{
+  font-size: 20px;
+  height: 40px;
+  font-style: normal;
+  font-weight: 50;
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  justify-content: center;
+
+  
+  
+ }
+ 
+ .Links a {
+  color: #605a47;
+  text-decoration: none;
+  margin: 20px;
+}
+  
+@media only screen and (max-width: 650px) {
+  .logare {
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+  }
+}
